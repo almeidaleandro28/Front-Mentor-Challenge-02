@@ -6,4 +6,8 @@ export const StyledMain = styled.main`
   background-image: url( ${BgDesktop } );
   background-color: ${ ( { theme } ) => theme.colors.red};
   height: 100vh;
+
+  @media ( max-width: ${ ( { theme } ) => theme.sm } ) {
+    background-image: url( ${BgMobile } );  
+  }
 `

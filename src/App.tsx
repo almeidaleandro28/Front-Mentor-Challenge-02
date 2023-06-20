@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components"
 import { GlobalStyle } from "./assets/GlobalStyled"
-import { StyledMain } from "./assets/Styles/Layout/Main"
+import { StyledMain } from "./assets/Components/layout/Main"
 
 const theme = {
   colors: {
