@@ -1,12 +1,25 @@
 import { ThemeProvider } from "styled-components"
 import { GlobalStyle } from "./assets/GlobalStyled"
 import { StyledMain } from "./assets/Components/layout/Main"
+import Hero from "./assets/Components/layout/Hero"
+import Registration from "./assets/Components/layout/Registration"
 
 const theme = {
   colors: {
+    blue: 'hsl(248, 32%, 49%)',
+    green: 'hsl(154, 59%, 51%)',
     red: 'hsl(0, 100%, 74%)',
-    green: 'hsl(154, 59%, 51%)'
+    white: '#ffffff'
     
+  },
+  fonts: {
+    poppins: '"Poppins", sans-serif',
+  },
+  weight: {
+    regular: 400,
+    medium: 500,
+    semiBold: 600,
+    bold: 700
   },
   sm: '640px',
   md: '7680x',
@@ -20,7 +33,8 @@ function App() {
     <>
       <GlobalStyle />
       <StyledMain>
-        <h1>main</h1>
+        <Hero />
+        <Registration />
       </StyledMain>
         
     </>
