@@ -10,4 +10,13 @@ export const StyledMain = styled.main`
   @media ( max-width: ${ ( { theme } ) => theme.sm } ) {
     background-image: url( ${BgMobile } );  
   }
+
+  display: flex;
+  flex-direction: column;
+
+  div {
+    flex: 1;
+    padding: 2rem;
+    border-radius: 5px;
+  }
 `

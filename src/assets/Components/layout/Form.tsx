@@ -4,7 +4,7 @@ import { ButtonStyled } from '../input/Button';
 
 
 const FormStyled  = styled.form`
-
+  background-color: ${ ( { theme } ) => theme.colors.white};
 `
 
 function Form(props) {
