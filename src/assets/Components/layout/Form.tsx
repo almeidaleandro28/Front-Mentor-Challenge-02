@@ -5,6 +5,8 @@ import { ButtonStyled } from '../input/Button';
 
 const FormStyled  = styled.form`
   background-color: ${ ( { theme } ) => theme.colors.white};
+  text-align: center;
+  
 `
 
 function Form(props) {

@@ -6,7 +6,20 @@ interface Text {
 }
 
 const InputStyled = styled.input`
+  border-radius: 5px;
+  width: 90%;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 
+  &::placeholder{
+    font-weight: 900;
+    padding-left: 10px;
+    
+  }
+  
+  
 `
 
 function Inputs(props: Text) {
