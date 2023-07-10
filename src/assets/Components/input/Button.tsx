@@ -6,7 +6,8 @@ export const ButtonStyled = styled.button<{$primary?: boolean}>`
                       : props.theme.colors.green};
   color: ${props => props.theme.color};
 
-  width: 100%;
+  /* width: 100%; */
+  width: ${ props => props.$primary ? '100%' : '90%'};
 `
 
 
