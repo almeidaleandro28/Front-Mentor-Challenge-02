@@ -16,6 +16,7 @@ const InputStyled = styled.input`
   &::placeholder{
     font-weight: 900;
     padding-left: 10px;
+    text-transform: capitalize;
     
   }
   
