@@ -2,6 +2,9 @@ import { styled } from "styled-components";
 import { ButtonStyled } from "../input/Button";
 
 const HeroStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
    
 `
 

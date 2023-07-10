@@ -19,4 +19,6 @@ export const StyledMain = styled.main`
     padding: 2rem;
     border-radius: 5px;
   }
+
+
 `
