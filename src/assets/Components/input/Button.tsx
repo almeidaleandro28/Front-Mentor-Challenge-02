@@ -9,6 +9,11 @@ export const ButtonStyled = styled.button<{$primary?: boolean}>`
   text-transform: ${ props => !props.$primary 
                   ? 'uppercase'
                   : 'lowercase'};
+  strong{
+    text-transform: capitalize;
+    font-weight: ${ ( { theme} ) => theme.weight.bold };
+  }
+
   width: ${ props => props.$primary ? '100%' : '90%'};
 `
 
