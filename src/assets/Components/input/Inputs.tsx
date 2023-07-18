@@ -7,6 +7,7 @@ interface Text {
 
 const InputStyled = styled.input`
   border-radius: 5px;
+  border: 1px solid ${ ( { theme }) => theme.colors.gray};
   width: 90%;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
@@ -17,7 +18,6 @@ const InputStyled = styled.input`
     font-weight: 900;
     padding-left: 10px;
     text-transform: capitalize;
-    
   }
   
   

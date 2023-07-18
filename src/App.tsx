@@ -9,7 +9,8 @@ const theme = {
     blue: 'hsl(248, 32%, 49%)',
     green: 'hsl(154, 59%, 51%)',
     red: 'hsl(0, 100%, 74%)',
-    white: '#ffffff'
+    white: '#ffffff',
+    gray: '#d4cdcd'
     
   },
   fonts: {
