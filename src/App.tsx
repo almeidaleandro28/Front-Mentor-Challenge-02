@@ -36,7 +36,6 @@ function App() {
         <Hero />
         <Registration />
       </StyledMain>
-        
     </>
     </ThemeProvider>
   )

@@ -31,7 +31,7 @@ function Hero(props) {
       <TextStyled>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem omnis officia voluptate laborum, nobis debitis harum inventore? Quas, quam! Et eum ducimus eius nulla nihil laboriosam voluptas distinctio rerum.</p>
       </TextStyled>
-      <ButtonStyled $primary={true}>primary</ButtonStyled>
+      <ButtonStyled $primary={true}>try it free 7 days then $20/mo. thereafter </ButtonStyled>
     </HeroStyled>
   );
 }

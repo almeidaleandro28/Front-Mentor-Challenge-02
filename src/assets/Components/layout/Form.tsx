@@ -17,7 +17,7 @@ function Form(props) {
       <Inputs type='text' placeholder='last name'/>
       <Inputs type='email' placeholder='email address'/>
       <Inputs type='password' placeholder='password'/>
-      <ButtonStyled>send</ButtonStyled>
+      <ButtonStyled>claim your free trial</ButtonStyled>
     </FormStyled>
   );
 }
