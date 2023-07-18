@@ -5,8 +5,11 @@ export const ButtonStyled = styled.button<{$primary?: boolean}>`
                       ? props.theme.colors.blue
                       : props.theme.colors.green};
   color: ${ ( { theme } ) => theme.colors.white };
-
-  /* width: 100%; */
+  
+  padding: 1rem 0;
+  text-transform: ${ props => !props.$primary 
+                  ? 'uppercase'
+                  : 'lowercase'};
   width: ${ props => props.$primary ? '100%' : '90%'};
 `
 
