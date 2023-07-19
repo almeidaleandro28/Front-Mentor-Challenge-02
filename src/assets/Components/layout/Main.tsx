@@ -5,7 +5,7 @@ import BgDesktop from '../../img/bg-intro-desktop.png';
 export const StyledMain = styled.main`
   background-image: url( ${BgDesktop } );
   background-color: ${ ( { theme } ) => theme.colors.red};
-  height: 100vh;
+  height: 100%;
 
   @media ( max-width: ${ ( { theme } ) => theme.sm } ) {
     background-image: url( ${BgMobile } );  
